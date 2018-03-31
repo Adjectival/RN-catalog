@@ -2,6 +2,8 @@
 
 ## Adjectival
 
+![screenshot](wireframe.png)
+
 ## Function
 
 Display catalog of cover art and game titles for unofficial video games.
