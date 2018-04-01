@@ -2,7 +2,7 @@
 
 ## Adjectival
 
-![screenshot](wireframe.png)
+![screenshot](wireframe2.png)
 ![screenshot](dataflow.png)
 
 ## Function
