@@ -27,3 +27,9 @@ Not available. Please google "react-native install" for hours of rewarding adven
 ## Development Goals
 
 Refactor into reusable boilerplate for RN development.
+
+## Attribution
+
+This code MIT freeware.
+
+Based on [coursework from here](https://www.udemy.com/the-complete-react-native-and-redux-course).
