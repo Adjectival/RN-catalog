@@ -13,7 +13,6 @@ const App = () => (
 			<Game/>
 			<Game/>
 			<Game/>
-			<Game/>
 		</View>
 	</View>
 );
