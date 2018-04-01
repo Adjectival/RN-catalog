@@ -7,7 +7,7 @@ import Game from './src/components/game';
 // create component
 const App = () => (
 	<View style={styles.app}>
-		<Header/>
+		<Header headerText={'Bootlegs'} />
 		<View style={styles.card}>
 			<Game/>
 			<Game/>

@@ -3,26 +3,27 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 // make component
-const Header = () => {
+const Header = (props) => {
 	return (
 	<View style={styles.view}>
-		<Text style={styles.text}>Bootlegs</Text>
+		<Text style={styles.text}>{props.headerText}</Text>
 	</View>
 	);
 };
 
 const styles = StyleSheet.create({
 	view: {
-		backgroundColor: 'peru',
+		height: 60,
+		paddingTop: 20,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+		backgroundColor: 'steelblue',
+		elevation: 2,
+		position: 'relative'
 	},
 	text: {
-		color: 'indigo',
 		fontSize: 22,
-		paddingTop: 20,
-		paddingBottom: 14,
-		borderBottomWidth: 5
+		color: 'gold'
 	}
 });
 

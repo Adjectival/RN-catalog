@@ -20,8 +20,7 @@ const styles = StyleSheet.create({
 	game: {
 		color: 'gold',
 		fontSize: 22,
-		padding: 20,
-		margin: 10
+		padding: 29
 	}
 });
 
