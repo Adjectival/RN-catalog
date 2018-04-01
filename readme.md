@@ -10,9 +10,19 @@ Display catalog of cover art and game titles for unofficial video games.
 
 Build basic react-native app composition skills.
 
-## Install
+## Installation
 
+### Config
 Not available. Please google "react-native install" for hours of rewarding adventures.
+
+### Development, once Your Tooling is Setup
++ Clone this repo.
++ ```cd RN-catalog/```
++ ```npm install```
++ ```react-native run-ios```
++ OR
++ ```react-native run-android```
+
 
 ## Development Goals
 
