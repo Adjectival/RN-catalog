@@ -3,28 +3,27 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 // make component
-const Header = () => {
+const Game = () => {
 	return (
 	<View style={styles.view}>
-		<Text style={styles.text}>Bootlegs</Text>
+		<Text style={styles.game}>Game</Text>
 	</View>
 	);
 };
 
 const styles = StyleSheet.create({
 	view: {
-		backgroundColor: 'peru',
+		backgroundColor: 'darkgreen',
         justifyContent: 'center',
         alignItems: 'center'
 	},
-	text: {
-		color: 'indigo',
+	game: {
+		color: 'gold',
 		fontSize: 22,
-		paddingTop: 20,
-		paddingBottom: 14,
-		borderBottomWidth: 5
+		padding: 20,
+		margin: 10
 	}
 });
 
 // export component
-export default Header;
+export default Game;
