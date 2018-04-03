@@ -9,21 +9,21 @@ import GameList from './src/components/GameList';
 const App = () => (
 	<View style={styles.app}>
 		<Header headerText={'Bootlegs'} />
-		<View style={styles.card}>
-			<GameList/>
+		<View style={styles.body}>
+			<GameList />
 		</View>
 	</View>
 );
 
 const styles = StyleSheet.create({
     app: {
-        flex: 1,
+        flex: 1
     },
-    card: {
+    body: {
         flex: 2,
-        backgroundColor: 'papayawhip',
+        justifyContent: 'center',
         alignItems: 'center',
-        justifyContent: 'center'
+        backgroundColor: 'salmon'
     }
 });
 

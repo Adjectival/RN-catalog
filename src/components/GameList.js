@@ -6,7 +6,7 @@ import Game from './Game';
 // make component
 const GameList = () => {
 	return (
-	<View>
+	<View style={styles.list}>
 		<Game/>
 		<Game/>
 		<Game/>
@@ -15,6 +15,10 @@ const GameList = () => {
 	);
 };
 
+const styles = StyleSheet.create({
+	list: {
+	}
+});
 
 // export component
 export default GameList;

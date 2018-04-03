@@ -13,7 +13,7 @@ const Game = () => {
 
 const styles = StyleSheet.create({
 	view: {
-		backgroundColor: 'darkgreen',
+		backgroundColor: 'navy',
         justifyContent: 'center',
         alignItems: 'center'
 	},
