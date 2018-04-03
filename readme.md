@@ -1,6 +1,6 @@
 # React-Native Catalog :iphone::cd: 🎮
 
-## Adjectival
+## [Adjectival](https://github.com/Adjectival)
 
 ![screenshot](wireframe2.png)
 ![screenshot](dataflow.png)
@@ -13,10 +13,10 @@ Build basic react-native app composition skills.
 
 ## Installation
 
-### Config
+### :wrench: Config
 Not available. Please google "react-native install" for hours of rewarding adventures.
 
-### Development, once Your Tooling is Setup
+### :construction: Development, once Your Tooling is Setup
 + Clone this repo.
 + ```cd RN-catalog/```
 + ```npm install```
@@ -25,11 +25,11 @@ Not available. Please google "react-native install" for hours of rewarding adven
 + ```react-native run-android```
 
 
-## Development Goals
+## :triangular_flag_on_post: Development Goals
 
 Refactor into reusable boilerplate for RN development.
 
-## Attribution
+## :card_index: Attribution
 
 This code MIT freeware.
 
