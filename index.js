@@ -1,18 +1,16 @@
 // base libraries
 import React from 'react';
 import { View, Text, AppRegistry, StyleSheet } from 'react-native';
-import Header from './src/components/header';
-import Game from './src/components/game';
+import Header from './src/components/Header';
+import Game from './src/components/Game';
+import GameList from './src/components/GameList';
 
 // create component
 const App = () => (
 	<View style={styles.app}>
 		<Header headerText={'Bootlegs'} />
 		<View style={styles.card}>
-			<Game/>
-			<Game/>
-			<Game/>
-			<Game/>
+			<GameList/>
 		</View>
 	</View>
 );
