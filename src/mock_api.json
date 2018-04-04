@@ -1,34 +1,34 @@
 [
 	{
-		title: "Somari the Adventurer",
-		platform: "Nintendo Entertainment System",
-		url: "http://bootleggames.wikia.com/wiki/Somari",
-		title_image: "https://vignette.wikia.nocookie.net/bootleggames/images/4/41/Somari.png/revision/latest?cb=20100508225146",
-		game_image: "http://www.defunctgames.com/pic/reviewpics/reviewsomarines-3.jpg",
-		cart_image: "https://vignette.wikia.nocookie.net/bootleggames/images/a/ac/SomariCart.png/revision/latest?cb=20100508230410"
+		"title": "Somari the Adventurer",
+		"platform": "Nintendo Entertainment System",
+		"url": "http://bootleggames.wikia.com/wiki/Somari",
+		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/4/41/Somari.png/revision/latest?cb=20100508225146",
+		"game_image": "http://www.defunctgames.com/pic/reviewpics/reviewsomarines-3.jpg",
+		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/ac/SomariCart.png/revision/latest?cb=20100508230410"
 	},
 	{
-		title: "Squirrel King",
-		platform: "SEGA MegaDrive, Super Nintendo",
-		url: "http://bootleggames.wikia.com/wiki/Squirrel_King",
-		title_image: "https://vignette.wikia.nocookie.net/bootleggames/images/d/d8/SquirrelKingTitle.png/revision/latest/scale-to-width-down/250?cb=20100605133230",
-		game_image: "https://i.ytimg.com/vi/5kv2XWTwYOQ/maxresdefault.jpg",
-		cart_image: "https://vignette.wikia.nocookie.net/bootleggames/images/f/fd/Squirrel.jpg/revision/latest/scale-to-width-down/640?cb=20100822035324"
+		"title": "Squirrel King",
+		"platform": "SEGA MegaDrive, Super Nintendo",
+		"url": "http://bootleggames.wikia.com/wiki/Squirrel_King",
+		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/d/d8/SquirrelKingTitle.png/revision/latest/scale-to-width-down/250?cb=20100605133230",
+		"game_image": "https://i.ytimg.com/vi/5kv2XWTwYOQ/maxresdefault.jpg",
+		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/f/fd/Squirrel.jpg/revision/latest/scale-to-width-down/640?cb=20100822035324"
 	},
 	{
-		title: "Kart Fighter",
-		platform: "Nintendo Entertainment System",
-		url: "http://bootleggames.wikia.com/wiki/Kart_Fighter",
-		title_image: "https://vignette.wikia.nocookie.net/bootleggames/images/a/a2/KFTitle.png/revision/latest?cb=20100509011327",
-		game_image: "https://vignette.wikia.nocookie.net/bootleggames/images/4/4d/Kinopio-vs-Nokonoko-Kart-Fighter.jpeg/revision/latest?cb=20121213204739",
-		cart_image: "https://vignette.wikia.nocookie.net/bootleggames/images/3/35/KFCart.jpg/revision/latest?cb=20100509095559"
+		"title": "Kart Fighter",
+		"platform": "Nintendo Entertainment System",
+		"url": "http://bootleggames.wikia.com/wiki/Kart_Fighter",
+		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/a2/KFTitle.png/revision/latest?cb=20100509011327",
+		"game_image": "https://vignette.wikia.nocookie.net/bootleggames/images/4/4d/Kinopio-vs-Nokonoko-Kart-Fighter.jpeg/revision/latest?cb=20121213204739",
+		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/3/35/KFCart.jpg/revision/latest?cb=20100509095559"
 	},
 	{
-		title: "Final Fantasy VII",
-		platform: "Nintendo Entertainment System",
-		url: "http://bootleggames.wikia.com/wiki/Final_Fantasy_VII",
-		title_image: "http://www.romhacking.net/newsimages/newsimage1438a.png",
-		game_image: "http://ninki-game-matome.xyz/wp-content/uploads/2016/12/hqdefault-1.jpg",
-		cart_image: "http://azureblog.blogponsel.net/files/card-cover.jpg"
+		"title": "Final Fantasy VII",
+		"platform": "Nintendo Entertainment System",
+		"url": "http://bootleggames.wikia.com/wiki/Final_Fantasy_VII",
+		"title_image": "http://www.romhacking.net/newsimages/newsimage1438a.png",
+		"game_image": "http://ninki-game-matome.xyz/wp-content/uploads/2016/12/hqdefault-1.jpg",
+		"cart_image": "http://azureblog.blogponsel.net/files/card-cover.jpg"
 	}
 ]
