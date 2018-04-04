@@ -24,6 +24,7 @@ Not available. Please google "react-native install" for hours of rewarding adven
 + OR
 + ```react-native run-android```
 
+#### ⌘D allows Dev Menu in iPhone emulator --> choose remote debugging for browser Dev Tools interaction
 
 ## :triangular_flag_on_post: Development Goals
 
