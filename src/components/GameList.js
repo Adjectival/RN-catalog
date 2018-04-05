@@ -14,13 +14,16 @@ class GameList extends Component {
 			.then(response => this.setState({ games: response.data }));
 	}
 
+	renderGames() {
+		return this.state.games.map(game => <Text>{game.title}</Text>);
+	}
+
 	render() {
 		console.log(this.state);
-		
+
 		return (
 		<View style={styles.list}>
-			<Text>Game List</Text>
-			<Game/>
+			{this.renderGames()}
 		</View>
 		);
 	}

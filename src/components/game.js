@@ -6,7 +6,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const Game = () => {
 	return (
 	<View style={styles.view}>
-		<Text style={styles.game}>Game</Text>
+		<Text style={styles.game}>Game Title</Text>
 	</View>
 	);
 };
