@@ -1,6 +1,7 @@
 [
 	{
 		"title": "Somari the Adventurer",
+		"key": "1",
 		"platform": "Nintendo Entertainment System",
 		"url": "http://bootleggames.wikia.com/wiki/Somari",
 		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/4/41/Somari.png/revision/latest?cb=20100508225146",
@@ -9,6 +10,7 @@
 	},
 	{
 		"title": "Squirrel King",
+		"key": "2",
 		"platform": "SEGA MegaDrive, Super Nintendo",
 		"url": "http://bootleggames.wikia.com/wiki/Squirrel_King",
 		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/d/d8/SquirrelKingTitle.png/revision/latest/scale-to-width-down/250?cb=20100605133230",
@@ -17,6 +19,7 @@
 	},
 	{
 		"title": "Kart Fighter",
+		"key": "3",
 		"platform": "Nintendo Entertainment System",
 		"url": "http://bootleggames.wikia.com/wiki/Kart_Fighter",
 		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/a2/KFTitle.png/revision/latest?cb=20100509011327",
@@ -25,6 +28,7 @@
 	},
 	{
 		"title": "Final Fantasy VII",
+		"key": "4",
 		"platform": "Nintendo Entertainment System",
 		"url": "http://bootleggames.wikia.com/wiki/Final_Fantasy_VII",
 		"title_image": "http://www.romhacking.net/newsimages/newsimage1438a.png",
