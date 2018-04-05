@@ -3,11 +3,11 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 // make component
-const Game = () => {
+const GameDetail = (props) => {
 	return (
-	<View style={styles.view}>
-		<Text style={styles.game}>Game Title</Text>
-	</View>
+		<View>
+			<Text style={styles.box}>{props.game.title}</Text>
+		</View>
 	);
 };
 
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
 	},
-	game: {
+	box: {
 		color: 'gold',
 		fontSize: 22,
 		padding: 29
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
 });
 
 // export component
-export default Game;
+export default GameDetail;

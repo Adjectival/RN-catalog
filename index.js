@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, AppRegistry, StyleSheet } from 'react-native';
 import Header from './src/components/Header';
-import Game from './src/components/Game';
+import GameDetail from './src/components/GameDetail';
 import GameList from './src/components/GameList';
 
 // create component

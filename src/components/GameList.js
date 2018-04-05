@@ -1,8 +1,8 @@
 // import libraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View } from 'react-native';
 import axios from 'axios';
-import Game from './Game';
+import GameDetail from './GameDetail';
 
 // make component
 class GameList extends Component {
@@ -11,28 +11,27 @@ class GameList extends Component {
 
 	componentWillMount() {
 		axios.get('https://raw.githubusercontent.com/Adjectival/RN-catalog/master/src/mock_api.json')
-			.then(response => this.setState({ games: response.data }));
+			.then(response => this.setState({ games: response.data })
+		);
 	}
 
 	renderGames() {
-		return this.state.games.map(game => <Text>{game.title}</Text>);
+		return this.state.games.map(game =>
+			<GameDetail game={game} />
+		);
 	}
 
 	render() {
 		console.log(this.state);
 
 		return (
-		<View style={styles.list}>
+		<View>
 			{this.renderGames()}
 		</View>
 		);
 	}
 }
 
-const styles = StyleSheet.create({
-	list: {
-	}
-});
 
 // export component
 export default GameList;
