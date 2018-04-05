@@ -25,8 +25,7 @@ const styles = StyleSheet.create({
 		marginRight: 5,
 		marginTop: 10,
 		backgroundColor: 'steelblue',
-        alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'flex-start'
 	}
 });
 

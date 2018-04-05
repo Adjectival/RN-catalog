@@ -15,18 +15,9 @@ const styles = StyleSheet.create({
 		borderBottomWidth: 1,
 		borderColor: 'red',
 		padding: 5,
-		backgroundColor: '#cfc',
-        justifyContent: 'flex-start',
         flexDirection: 'row',
         position: 'relative',
 		elevation: 1,
-	},
-	titletext: {
-		color: 'gold',
-		fontSize: 22,
-	},
-	smalltext: {
-		fontSize: 16
 	}
 });
 
