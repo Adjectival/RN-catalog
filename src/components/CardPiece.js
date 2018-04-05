@@ -2,15 +2,15 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 
-const CardSection = () => {
+const CardPiece = () => {
 	return (
 		<View>
 			<Text>
-				Section works
+				Piece works
 			</Text>
 		</View>
 	)
 };
 
-export default CardSection;
+export default CardPiece;
 

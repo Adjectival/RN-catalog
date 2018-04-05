@@ -2,7 +2,7 @@
 
 ## [Adjectival](https://github.com/Adjectival)
 
-![screenshot](wireframe2.png)
+![screenshot](wireframe3.png)
 ![screenshot](dataflow.png)
 
 ## Function

@@ -1,7 +1,7 @@
 // import libraries
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-import CardSection from './CardSection'
+import CardPiece from './CardPiece'
 
 // make component
 const ItemDetail = (props) => {
@@ -9,7 +9,7 @@ const ItemDetail = (props) => {
 		<View style={styles.box}>
 			<Text style={styles.titletext}>{props.item.title}</Text>
 			<Text style={styles.smalltext}>{props.item.platform}</Text>
-			<CardSection />
+			<CardPiece />
 		</View>
 	);
 };
