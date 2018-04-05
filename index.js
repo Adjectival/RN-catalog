@@ -2,15 +2,14 @@
 import React from 'react';
 import { View, Text, AppRegistry, StyleSheet } from 'react-native';
 import Header from './src/components/Header';
-import GameDetail from './src/components/GameDetail';
-import GameList from './src/components/GameList';
+import ItemList from './src/components/ItemList';
 
 // create component
 const App = () => (
 	<View style={styles.app}>
 		<Header headerText={'Bootlegs'} />
 		<View style={styles.body}>
-			<GameList />
+			<ItemList />
 		</View>
 	</View>
 );

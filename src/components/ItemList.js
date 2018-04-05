@@ -2,22 +2,22 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import axios from 'axios';
-import GameDetail from './GameDetail';
+import ItemDetail from './ItemDetail';
 
 // make component
-class GameList extends Component {
+class ItemList extends Component {
 	// set initial state as empty
-	state = { games: [] };
+	state = { items: [] };
 
 	componentWillMount() {
 		axios.get('https://raw.githubusercontent.com/Adjectival/RN-catalog/master/src/mock_api.json')
-			.then(response => this.setState({ games: response.data })
+			.then(response => this.setState({ items: response.data })
 		);
 	}
 
-	renderGames() {
-		return this.state.games.map(game =>
-			<GameDetail key={game.key} game={game} />
+	renderItems() {
+		return this.state.items.map(item =>
+			<ItemDetail key={item.key} item={item} />
 		);
 	}
 
@@ -26,7 +26,7 @@ class GameList extends Component {
 
 		return (
 		<View>
-			{this.renderGames()}
+			{this.renderItems()}
 		</View>
 		);
 	}
@@ -34,4 +34,4 @@ class GameList extends Component {
 
 
 // export component
-export default GameList;
+export default ItemList;
