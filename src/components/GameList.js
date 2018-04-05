@@ -17,7 +17,7 @@ class GameList extends Component {
 
 	renderGames() {
 		return this.state.games.map(game =>
-			<GameDetail game={game} />
+			<GameDetail key={game.key} game={game} />
 		);
 	}
 
