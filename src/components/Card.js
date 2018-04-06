@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 		marginLeft: 5,
 		marginRight: 5,
 		marginTop: 10,
-		backgroundColor: 'steelblue',
+		backgroundColor: 'ivory',
         justifyContent: 'flex-start'
 	}
 });

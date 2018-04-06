@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 		paddingLeft: 10,
 	},
 	title: {
-		color: 'gold',
+		color: 'navy',
 		fontSize: 22,
 	},
 	platform: {
@@ -70,8 +70,8 @@ const styles = StyleSheet.create({
 		paddingLeft: 30,
 	},
 	cart_image: {
-		width: 250,
-		height: 150,
+		width: 180,
+		height: 115,
 	},
 });
 
