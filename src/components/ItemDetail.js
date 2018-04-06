@@ -20,8 +20,9 @@ const ItemDetail = (props) => {
 					<Text style={styles.platform}>{props.item.platform}</Text>
 				</View>
 			</CardPiece>
-			<CardPiece style={styles.title_image}>
-				<View>
+
+			<CardPiece>
+				<View style={styles.large_image}>
 					<Image
 	          		style={styles.cart_image}
 	          		source={{ uri: props.item.cart_image }}
@@ -39,7 +40,7 @@ const styles = StyleSheet.create({
 	},
 	title_image: {
 		width: 60,
-		height: 60
+		height: 60,
 	},
 	textcontainer: {
 		flexDirection: 'column',
@@ -51,11 +52,16 @@ const styles = StyleSheet.create({
 		fontSize: 22,
 	},
 	platform: {
-		fontSize: 16
+		fontSize: 16,
+	},
+	large_image: {
+		justifyContent: 'space-around',
+		flexDirection: 'row',
+		paddingLeft: 30,
 	},
 	cart_image: {
-		width: 350,
-		height: 250
+		width: 250,
+		height: 150,
 	},
 });
 

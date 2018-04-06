@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
 		backgroundColor: 'steelblue',
-		elevation: 2,
+		elevation: 1,
 		position: 'relative'
 	},
 	text: {
