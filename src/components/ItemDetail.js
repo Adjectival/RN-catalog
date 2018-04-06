@@ -12,7 +12,7 @@ const ItemDetail = (props) => {
 				<View>
 					<Image
 	          		style={styles.title_image}
-	          		source={props.item.title_image}
+	          		source={{ uri: props.item.title_image }}
 	        		/>
 				</View>
 				<View style={styles.textcontainer}>
@@ -34,7 +34,9 @@ const styles = StyleSheet.create({
 		height: 60
 	},
 	textcontainer: {
-		justifyContent: 'space-around'
+		flexDirection: 'column',
+		justifyContent: 'space-around',
+		paddingLeft: 10,
 	},
 	title: {
 		color: 'gold',
