@@ -22,11 +22,17 @@ const ItemDetail = (props) => {
 			</CardPiece>
 
 			<CardPiece>
-				<View style={styles.large_image}>
+				<View style={styles.imagecontainer}>
+				
 					<Image
 	          		style={styles.cart_image}
 	          		source={{ uri: props.item.cart_image }}
 	        		/>
+	        		<Image
+	          		style={styles.cart_image}
+	          		source={{ uri: props.item.game_image }}
+	        		/>
+				
 				</View>
 			</CardPiece>
 
@@ -53,6 +59,10 @@ const styles = StyleSheet.create({
 	},
 	platform: {
 		fontSize: 16,
+	},
+	imagecontainer: {
+		flexDirection: 'row',
+		justifyContent: 'space-around',
 	},
 	large_image: {
 		justifyContent: 'space-around',
