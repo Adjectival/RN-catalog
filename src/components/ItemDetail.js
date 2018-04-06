@@ -8,7 +8,7 @@ import CardPiece from './CardPiece';
 const ItemDetail = (props) => {
 	return (
 		<Card style={styles.container}>
-			<CardPiece style={styles.title_image}>
+			<CardPiece>
 				<View>
 					<Image
 	          		style={styles.title_image}
@@ -18,6 +18,14 @@ const ItemDetail = (props) => {
 				<View style={styles.textcontainer}>
 					<Text style={styles.title}>{props.item.title}</Text>
 					<Text style={styles.platform}>{props.item.platform}</Text>
+				</View>
+			</CardPiece>
+			<CardPiece style={styles.title_image}>
+				<View>
+					<Image
+	          		style={styles.cart_image}
+	          		source={{ uri: props.item.cart_image }}
+	        		/>
 				</View>
 			</CardPiece>
 
@@ -44,7 +52,11 @@ const styles = StyleSheet.create({
 	},
 	platform: {
 		fontSize: 16
-	}
+	},
+	cart_image: {
+		width: 350,
+		height: 250
+	},
 });
 
 export default ItemDetail;
