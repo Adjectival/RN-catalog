@@ -5,7 +5,7 @@
 		"platform": "Nintendo Entertainment System",
 		"url": "http://bootleggames.wikia.com/wiki/Somari",
 		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/4/41/Somari.png/revision/latest?cb=20100508225146",
-		"game_image": "http://i3.wp.com/ytimg.googleusercontent.com/vi/KpiKNdYusHE/mqdefault.jpg",
+		"game_image": "https://raw.githubusercontent.com/Adjectival/RN-catalog/master/src/assets/somari2.jpg",
 		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/ac/SomariCart.png/revision/latest?cb=20100508230410"
 	},
 	{
@@ -23,7 +23,7 @@
 		"platform": "Nintendo Entertainment System",
 		"url": "http://bootleggames.wikia.com/wiki/Final_Fantasy_VII",
 		"title_image": "https://www.romhacking.net/hacks/nes/images/titles/1657titlescreen.png",
-		"game_image": "http://www.romhacking.net/hacks/nes/images/1657screenshot4.png",
+		"game_image": "https://raw.githubusercontent.com/Adjectival/RN-catalog/master/src/assets/ffvii1.jpg",
 		"cart_image": "https://raw.githubusercontent.com/Adjectival/RN-catalog/master/src/assets/shenzhenFFVII.jpg"
 	},
 	{
