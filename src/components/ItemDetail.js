@@ -5,19 +5,21 @@ import Card from './Card'
 import CardPiece from './CardPiece';
 
 // make component
-const ItemDetail = (props) => {
+const ItemDetail = ({ item }) => {
+	const {title_image, title, platform, cart_image, game_image} = item;
+
 	return (
 		<Card style={styles.container}>
 			<CardPiece>
 				<View>
 					<Image
 	          		style={styles.title_image}
-	          		source={{ uri: props.item.title_image }}
+	          		source={{ uri: title_image }}
 	        		/>
 				</View>
 				<View style={styles.textcontainer}>
-					<Text style={styles.title}>{props.item.title}</Text>
-					<Text style={styles.platform}>{props.item.platform}</Text>
+					<Text style={styles.title}>{title}</Text>
+					<Text style={styles.platform}>{platform}</Text>
 				</View>
 			</CardPiece>
 
@@ -26,11 +28,11 @@ const ItemDetail = (props) => {
 				
 					<Image
 	          		style={styles.cart_image}
-	          		source={{ uri: props.item.cart_image }}
+	          		source={{ uri: cart_image }}
 	        		/>
 	        		<Image
 	          		style={styles.cart_image}
-	          		source={{ uri: props.item.game_image }}
+	          		source={{ uri: game_image }}
 	        		/>
 				
 				</View>
