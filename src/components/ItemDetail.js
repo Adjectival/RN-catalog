@@ -7,34 +7,33 @@ import CardPiece from './CardPiece';
 // make component
 const ItemDetail = ({ item }) => {
 	const {title_image, title, platform, cart_image, game_image} = item;
+	const {container, sixty_image, textcontainer, game_title, game_platform, imagecontainer, large_image, small_image} = styles;
 
 	return (
-		<Card style={styles.container}>
+		<Card style={container}>
 			<CardPiece>
 				<View>
 					<Image
-	          		style={styles.title_image}
+	          		style={title_image}
 	          		source={{ uri: title_image }}
 	        		/>
 				</View>
-				<View style={styles.textcontainer}>
-					<Text style={styles.title}>{title}</Text>
-					<Text style={styles.platform}>{platform}</Text>
+				<View style={textcontainer}>
+					<Text style={game_title}>{title}</Text>
+					<Text style={game_platform}>{platform}</Text>
 				</View>
 			</CardPiece>
 
 			<CardPiece>
-				<View style={styles.imagecontainer}>
-				
+				<View style={imagecontainer}>
 					<Image
-	          		style={styles.cart_image}
+	          		style={small_image}
 	          		source={{ uri: cart_image }}
 	        		/>
 	        		<Image
-	          		style={styles.cart_image}
+	          		style={small_image}
 	          		source={{ uri: game_image }}
 	        		/>
-				
 				</View>
 			</CardPiece>
 
@@ -46,7 +45,7 @@ const styles = StyleSheet.create({
 	container: {
 		justifyContent: 'flex-start'
 	},
-	title_image: {
+	sixty_image: {
 		width: 60,
 		height: 60,
 	},
@@ -55,11 +54,11 @@ const styles = StyleSheet.create({
 		justifyContent: 'space-around',
 		paddingLeft: 10,
 	},
-	title: {
+	game_title: {
 		color: 'navy',
 		fontSize: 22,
 	},
-	platform: {
+	game_platform: {
 		fontSize: 16,
 	},
 	imagecontainer: {
@@ -71,7 +70,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		paddingLeft: 30,
 	},
-	cart_image: {
+	small_image: {
 		width: 180,
 		height: 115,
 	},
