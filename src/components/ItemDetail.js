@@ -7,14 +7,14 @@ import CardPiece from './CardPiece';
 // make component
 const ItemDetail = ({ item }) => {
 	const {title_image, title, platform, cart_image, game_image} = item;
-	const {container, sixty_image, textcontainer, game_title, game_platform, imagecontainer, large_image, small_image} = styles;
+	const {container, thumbnail, textcontainer, game_title, game_platform, large_image, small_image} = styles;
 
 	return (
 		<Card style={container}>
 			<CardPiece>
 				<View>
 					<Image
-	          		style={title_image}
+	          		style={thumbnail}
 	          		source={{ uri: title_image }}
 	        		/>
 				</View>
@@ -25,7 +25,7 @@ const ItemDetail = ({ item }) => {
 			</CardPiece>
 
 			<CardPiece>
-				<View style={imagecontainer}>
+
 					<Image
 	          		style={small_image}
 	          		source={{ uri: cart_image }}
@@ -34,7 +34,7 @@ const ItemDetail = ({ item }) => {
 	          		style={small_image}
 	          		source={{ uri: game_image }}
 	        		/>
-				</View>
+
 			</CardPiece>
 
 		</Card>
@@ -43,9 +43,9 @@ const ItemDetail = ({ item }) => {
 
 const styles = StyleSheet.create({
 	container: {
-		justifyContent: 'flex-start'
+		justifyContent: 'flex-start',
 	},
-	sixty_image: {
+	thumbnail: {
 		width: 60,
 		height: 60,
 	},
@@ -61,18 +61,16 @@ const styles = StyleSheet.create({
 	game_platform: {
 		fontSize: 16,
 	},
-	imagecontainer: {
-		flexDirection: 'row',
-		justifyContent: 'space-around',
-	},
+
 	large_image: {
 		justifyContent: 'space-around',
 		flexDirection: 'row',
 		paddingLeft: 30,
 	},
 	small_image: {
-		width: 180,
-		height: 115,
+		height: 120,
+		flex: 1,
+		width: null,
 	},
 });
 
