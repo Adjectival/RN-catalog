@@ -1,6 +1,6 @@
 // import libraries
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import axios from 'axios';
 import ItemDetail from './ItemDetail';
 
@@ -22,12 +22,11 @@ class ItemList extends Component {
 	}
 
 	render() {
-		console.log(this.state);
 
 		return (
-		<View>
+		<ScrollView>
 			{this.renderItems()}
-		</View>
+		</ScrollView>
 		);
 	}
 }

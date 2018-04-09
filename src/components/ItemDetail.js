@@ -3,6 +3,7 @@ import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 import Card from './Card'
 import CardPiece from './CardPiece';
+import Button from './Button';
 
 // make component
 const ItemDetail = ({ item }) => {
@@ -25,16 +26,18 @@ const ItemDetail = ({ item }) => {
 			</CardPiece>
 
 			<CardPiece>
-
-					<Image
-	          		style={small_image}
-	          		source={{ uri: cart_image }}
-	        		/>
-	        		<Image
-	          		style={small_image}
-	          		source={{ uri: game_image }}
-	        		/>
-
+				<Image
+          		style={small_image}
+          		source={{ uri: cart_image }}
+        		/>
+        		<Image
+          		style={small_image}
+          		source={{ uri: game_image }}
+        		/>
+			</CardPiece>
+			
+			<CardPiece>
+				<Button />
 			</CardPiece>
 
 		</Card>
