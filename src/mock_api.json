@@ -9,13 +9,13 @@
 		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/ac/SomariCart.png/revision/latest?cb=20100508230410"
 	},
 	{
-		"title": "Squirrel King",
+		"title": "Kart Fighter",
 		"key": "2",
-		"platform": "SEGA MegaDrive, Super Nintendo",
-		"url": "http://bootleggames.wikia.com/wiki/Squirrel_King",
-		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/d/d8/SquirrelKingTitle.png/revision/latest/scale-to-width-down/250?cb=20100605133230",
-		"game_image": "https://i.ytimg.com/vi/5kv2XWTwYOQ/maxresdefault.jpg",
-		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/f/fd/Squirrel.jpg/revision/latest/scale-to-width-down/640?cb=20100822035324"
+		"platform": "Nintendo Entertainment System",
+		"url": "http://bootleggames.wikia.com/wiki/Kart_Fighter",
+		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/a2/KFTitle.png/revision/latest?cb=20100509011327",
+		"game_image": "https://vignette.wikia.nocookie.net/bootleggames/images/4/4d/Kinopio-vs-Nokonoko-Kart-Fighter.jpeg/revision/latest?cb=20121213204739",
+		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/3/35/KFCart.jpg/revision/latest?cb=20100509095559"
 	},
 	{
 		"title": "Final Fantasy VII",
@@ -27,12 +27,12 @@
 		"cart_image": "https://raw.githubusercontent.com/Adjectival/RN-catalog/master/src/assets/shenzhenFFVII.jpg"
 	},
 	{
-		"title": "Kart Fighter",
+		"title": "Squirrel King",
 		"key": "4",
-		"platform": "Nintendo Entertainment System",
-		"url": "http://bootleggames.wikia.com/wiki/Kart_Fighter",
-		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/a/a2/KFTitle.png/revision/latest?cb=20100509011327",
-		"game_image": "https://vignette.wikia.nocookie.net/bootleggames/images/4/4d/Kinopio-vs-Nokonoko-Kart-Fighter.jpeg/revision/latest?cb=20121213204739",
-		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/3/35/KFCart.jpg/revision/latest?cb=20100509095559"
+		"platform": "SEGA MegaDrive, Super Nintendo",
+		"url": "http://bootleggames.wikia.com/wiki/Squirrel_King",
+		"title_image": "https://vignette.wikia.nocookie.net/bootleggames/images/d/d8/SquirrelKingTitle.png/revision/latest/scale-to-width-down/250?cb=20100605133230",
+		"game_image": "https://i.ytimg.com/vi/5kv2XWTwYOQ/maxresdefault.jpg",
+		"cart_image": "https://vignette.wikia.nocookie.net/bootleggames/images/f/fd/Squirrel.jpg/revision/latest/scale-to-width-down/640?cb=20100822035324"
 	}
 ]
